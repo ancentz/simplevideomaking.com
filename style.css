@@ -3251,6 +3251,7 @@ select {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'svminsta' !important;
     speak: none;
+	display: inline-block;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -3300,10 +3301,10 @@ select {
 }
 .fa-social-btns .btn.instagram:before {
   background-color: #404040;
-  font-size: 31px;
 }
 .fa-social-btns .btn.instagram .svm-insta {
   color: #404040;
+  font-size: 31px;
 }
 .fa-social-btns .btn.shopping-cart:before {
   background-color: #404040;
